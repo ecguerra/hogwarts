@@ -145,3 +145,14 @@ pet.remove()
 container.appendChild(pet)
 pet.remove()
 container.insertBefore(pet, container.children[3])
+
+//Year 6
+const myStuff = document.querySelectorAll('li')
+myStuff.forEach(item => item.classList.add('secret'))
+
+const visible = () => myStuff.forEach(item => item.classList.remove('secret'))
+
+const showStuff = setTimeout(visible,2000)
+
+leash.classList.add('cabbage')
+leash.classList.remove('cabbage')
