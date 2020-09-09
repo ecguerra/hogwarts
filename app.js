@@ -128,3 +128,20 @@ friRow.appendChild(fri)
 const friClass = document.createElement('td')
 friClass.innerText = 'Herbology, <free period>'
 friRow.appendChild(friClass)
+
+//Year 5
+
+wand.remove()
+butterbeer.remove()
+
+const newWand = document.createElement('h4')
+newWand.innerText = 'Willow and Phoenix Feather'
+container.appendChild(newWand)
+
+container.insertBefore(newWand, container.children[4])
+newWand.style.color='hotpink'
+
+pet.remove()
+container.appendChild(pet)
+pet.remove()
+container.insertBefore(pet, container.children[3])
