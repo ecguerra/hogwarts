@@ -156,3 +156,12 @@ const showStuff = setTimeout(visible,2000)
 
 leash.classList.add('cabbage')
 leash.classList.remove('cabbage')
+
+//Year 7
+semester.innerText='Spring 2021'
+
+const moreButterbeer = document.createElement('li')
+moreButterbeer.innerText = 'butterbeer'
+trunk.appendChild(moreButterbeer)
+
+trunk.setAttribute('storage', 'chest')

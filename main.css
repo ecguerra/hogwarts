@@ -3,6 +3,14 @@ body {
     text-align: center;
 }
 
+h1 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+h2, h3, h4, h5, th {
+    font-family: 'Oswald', sans-serif;
+}
+
 .cat {
     font-family: fantasy;
 }
@@ -16,12 +24,17 @@ ul {
 }
 
 li {
-   list-style: none; 
+   list-style: none;
+   font-family: 'Reenie Beanie', cursive;
 }
 
 table, th, td {
     border:1px solid gray;
     margin: 0 auto;
+}
+
+td {
+    font-family: 'Reenie Beanie', cursive;
 }
 
 .cabbage {
