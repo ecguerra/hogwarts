@@ -40,3 +40,26 @@ td {
 .cabbage {
     color: chartreuse;
 }
+
+.secret-mission {
+    animation: 5s ease-out 5s 2 alternate both running mission;
+}
+
+@keyframes mission {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    50% {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+
+    to {
+        margin-left: 100%;
+        width: 300%;
+    }
+}
+

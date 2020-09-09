@@ -141,10 +141,10 @@ container.appendChild(newWand)
 container.insertBefore(newWand, container.children[4])
 newWand.style.color='hotpink'
 
-pet.remove()
-container.appendChild(pet)
-pet.remove()
-container.insertBefore(pet, container.children[3])
+// pet.remove()
+// container.appendChild(pet)
+// pet.remove()
+// container.insertBefore(pet, container.children[3])
 
 //Year 6
 const myStuff = document.querySelectorAll('li')
@@ -165,3 +165,9 @@ moreButterbeer.innerText = 'butterbeer'
 trunk.appendChild(moreButterbeer)
 
 trunk.setAttribute('storage', 'chest')
+
+//Extra
+
+pet.classList.add('secret-mission')
+// container.appendChild(pet)
+// container.insertBefore(pet, container.children[3])
